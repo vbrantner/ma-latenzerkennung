@@ -1,0 +1,6 @@
+.venv
+images/*
+split_images/*
+*.mov
+*.MOV
+.DS_Store
