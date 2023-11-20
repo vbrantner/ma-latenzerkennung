@@ -19,7 +19,7 @@ def get_all_files_in_folder(folder_path):
         file_path = os.path.join(folder_path, filename)
         try:
             if os.path.isfile(file_path):
-                files.append({'path': file_path, 'filename': filename})
+                files.append({"path": file_path, "filename": filename})
         except Exception as e:
             print(f"Failed to delete {file_path}. Reason: {e}")
     return files
